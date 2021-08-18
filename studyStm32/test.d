@@ -7,3 +7,4 @@
 ..\test.o: ..\SYSTEM\sys\system_stm32f10x.h
 ..\test.o: ..\HARDWARE\LED\led.h
 ..\test.o: ..\HARDWARE\BEEP\beep.h
+..\test.o: ..\HARDWARE\KEY\key.h
