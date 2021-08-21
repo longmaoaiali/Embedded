@@ -8,3 +8,5 @@
 ..\test.o: ..\HARDWARE\LED\led.h
 ..\test.o: ..\SYSTEM\usart\usart.h
 ..\test.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+..\test.o: ..\HARDWARE\EXTInterrupt\exti.h
+..\test.o: ..\HARDWARE\BEEP\beep.h
