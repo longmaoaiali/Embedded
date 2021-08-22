@@ -9,4 +9,5 @@
 ..\test.o: ..\SYSTEM\usart\usart.h
 ..\test.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 ..\test.o: ..\HARDWARE\EXTInterrupt\exti.h
-..\test.o: ..\HARDWARE\BEEP\beep.h
+..\test.o: ..\HARDWARE\IWDG\iwdg.h
+..\test.o: ..\HARDWARE\KEY\key.h

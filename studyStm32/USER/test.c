@@ -3,7 +3,8 @@
 #include "led.h"
 #include "usart.h"
 #include "exti.h"
-#include "beep.h"
+#include "iwdg.h"
+#include "key.h"
 
 int main()
 {
@@ -12,12 +13,18 @@ int main()
 	LED_Init();
 	uart_init(72,115200);
 	EXTI_Init();
-	BEEP_Init();
+	KEY_Init();
+	delay_ms(1000);
+	IWDG_Init(4,625);
+	LED0=0;
 	
 	while(1){
-		printf("OK Liuyu\r\n");
-		delay_ms(1000);
-	}
+		if(KEY_Scan()!=0){
+			IWDG_Feed();
+		}
+		
+		delay_ms(10);
 	
+	}
 }
 
