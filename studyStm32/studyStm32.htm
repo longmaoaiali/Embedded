@@ -3,11 +3,11 @@
 <title>Static Call Graph - [..\studyStm32.axf]</title></head>
 <body><HR>
 <H1>Static Call Graph for image ..\studyStm32.axf</H1><HR>
-<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060750: Last Updated: Sun Aug 22 22:29:03 2021
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060750: Last Updated: Mon Aug 23 22:53:36 2021
 <BR><P>
 <H3>Maximum Stack Usage =         40 bytes + Unknown(Functions without stacksize, Cycles, Untraceable Function Pointers)</H3><H3>
 Call chain for Maximum Stack Depth:</H3>
-__rt_entry_main &rArr; main &rArr; WWDG_Init &rArr; MY_NVIC_Init
+__rt_entry_main &rArr; main &rArr; Timer_Init &rArr; MY_NVIC_Init
 <P>
 <H3>
 Functions with no stack information
@@ -84,7 +84,7 @@ Function Pointers
  <LI><a href="#[27]">TIM1_TRG_COM_IRQHandler</a> from startup_stm32f10x_hd.o(.text) referenced from startup_stm32f10x_hd.o(RESET)
  <LI><a href="#[26]">TIM1_UP_IRQHandler</a> from startup_stm32f10x_hd.o(.text) referenced from startup_stm32f10x_hd.o(RESET)
  <LI><a href="#[29]">TIM2_IRQHandler</a> from startup_stm32f10x_hd.o(.text) referenced from startup_stm32f10x_hd.o(RESET)
- <LI><a href="#[2a]">TIM3_IRQHandler</a> from startup_stm32f10x_hd.o(.text) referenced from startup_stm32f10x_hd.o(RESET)
+ <LI><a href="#[2a]">TIM3_IRQHandler</a> from timer.o(i.TIM3_IRQHandler) referenced from startup_stm32f10x_hd.o(RESET)
  <LI><a href="#[2b]">TIM4_IRQHandler</a> from startup_stm32f10x_hd.o(.text) referenced from startup_stm32f10x_hd.o(RESET)
  <LI><a href="#[3f]">TIM5_IRQHandler</a> from startup_stm32f10x_hd.o(.text) referenced from startup_stm32f10x_hd.o(RESET)
  <LI><a href="#[43]">TIM6_IRQHandler</a> from startup_stm32f10x_hd.o(.text) referenced from startup_stm32f10x_hd.o(RESET)
@@ -220,7 +220,7 @@ Global Symbols
 
 <P><STRONG><a name="[53]"></a>__rt_entry_main</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __rtentry2.o(.ARM.Collect$$rtentry$$0000000D))
 <BR><BR>[Stack]<UL><LI>Max Depth = 40 + Unknown Stack Size
-<LI>Call Chain = __rt_entry_main &rArr; main &rArr; WWDG_Init &rArr; MY_NVIC_Init
+<LI>Call Chain = __rt_entry_main &rArr; main &rArr; Timer_Init &rArr; MY_NVIC_Init
 </UL>
 <BR>[Calls]<UL><LI><a href="#[55]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;exit
 <LI><a href="#[54]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
@@ -429,9 +429,6 @@ Global Symbols
 <P><STRONG><a name="[29]"></a>TIM2_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_hd.o(.text))
 <BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_hd.o(RESET)
 </UL>
-<P><STRONG><a name="[2a]"></a>TIM3_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_hd.o(.text))
-<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_hd.o(RESET)
-</UL>
 <P><STRONG><a name="[2b]"></a>TIM4_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_hd.o(.text))
 <BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_hd.o(RESET)
 </UL>
@@ -558,7 +555,7 @@ Global Symbols
 </UL>
 <BR>[Calls]<UL><LI><a href="#[61]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MY_NVIC_PriorityGroupConfig
 </UL>
-<BR>[Called By]<UL><LI><a href="#[64]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WWDG_Init
+<BR>[Called By]<UL><LI><a href="#[63]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Timer_Init
 </UL>
 
 <P><STRONG><a name="[61]"></a>MY_NVIC_PriorityGroupConfig</STRONG> (Thumb, 32 bytes, Stack size 0 bytes, sys.o(i.MY_NVIC_PriorityGroupConfig))
@@ -577,25 +574,28 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[54]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
-<P><STRONG><a name="[32]"></a>USART1_IRQHandler</STRONG> (Thumb, 118 bytes, Stack size 0 bytes, usart.o(i.USART1_IRQHandler))
+<P><STRONG><a name="[2a]"></a>TIM3_IRQHandler</STRONG> (Thumb, 40 bytes, Stack size 0 bytes, timer.o(i.TIM3_IRQHandler))
 <BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_hd.o(RESET)
 </UL>
-<P><STRONG><a name="[d]"></a>WWDG_IRQHandler</STRONG> (Thumb, 34 bytes, Stack size 4 bytes, wwdg.o(i.WWDG_IRQHandler))
-<BR><BR>[Stack]<UL><LI>Max Depth = 4<LI>Call Chain = WWDG_IRQHandler
-</UL>
-<BR>[Calls]<UL><LI><a href="#[63]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WWDG_Set_Counter
-</UL>
-<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_hd.o(RESET)
-</UL>
-<P><STRONG><a name="[64]"></a>WWDG_Init</STRONG> (Thumb, 124 bytes, Stack size 16 bytes, wwdg.o(i.WWDG_Init))
-<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = WWDG_Init &rArr; MY_NVIC_Init
+<P><STRONG><a name="[63]"></a>Timer_Init</STRONG> (Thumb, 72 bytes, Stack size 16 bytes, timer.o(i.Timer_Init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = Timer_Init &rArr; MY_NVIC_Init
 </UL>
 <BR>[Calls]<UL><LI><a href="#[60]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MY_NVIC_Init
 </UL>
 <BR>[Called By]<UL><LI><a href="#[54]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
-<P><STRONG><a name="[63]"></a>WWDG_Set_Counter</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, wwdg.o(i.WWDG_Set_Counter))
+<P><STRONG><a name="[32]"></a>USART1_IRQHandler</STRONG> (Thumb, 118 bytes, Stack size 0 bytes, usart.o(i.USART1_IRQHandler))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[d]"></a>WWDG_IRQHandler</STRONG> (Thumb, 34 bytes, Stack size 4 bytes, wwdg.o(i.WWDG_IRQHandler))
+<BR><BR>[Stack]<UL><LI>Max Depth = 4<LI>Call Chain = WWDG_IRQHandler
+</UL>
+<BR>[Calls]<UL><LI><a href="#[64]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WWDG_Set_Counter
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[64]"></a>WWDG_Set_Counter</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, wwdg.o(i.WWDG_Set_Counter))
 <BR><BR>[Called By]<UL><LI><a href="#[d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WWDG_IRQHandler
 </UL>
 
@@ -614,12 +614,12 @@ Global Symbols
 <LI><a href="#[54]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
-<P><STRONG><a name="[54]"></a>main</STRONG> (Thumb, 50 bytes, Stack size 0 bytes, test.o(i.main))
-<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = main &rArr; WWDG_Init &rArr; MY_NVIC_Init
+<P><STRONG><a name="[54]"></a>main</STRONG> (Thumb, 54 bytes, Stack size 0 bytes, test.o(i.main))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = main &rArr; Timer_Init &rArr; MY_NVIC_Init
 </UL>
 <BR>[Calls]<UL><LI><a href="#[5d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;delay_ms
 <LI><a href="#[65]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;delay_init
-<LI><a href="#[64]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WWDG_Init
+<LI><a href="#[63]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Timer_Init
 <LI><a href="#[62]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Stm32_Clock_Init
 <LI><a href="#[66]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LED_Init
 </UL>
