@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 #include "capture.h"
 
 void TIM5_Cap_Init(u16 arr,u16 psc)
@@ -61,15 +61,4 @@ void TIM5_IRQHandler(void)
 
 	TIM5->SR=0;
 }
-=======
-#ifndef __CAPTURE_H
-#define __CAPTURE_H
-
-#include "sys.h"
-
-void TIM5_Cap_Init(u16 arr,u16 psc);
-
-
-#endif
->>>>>>> f091752262f691eec8ea469cf5b8b856694d1374
 
