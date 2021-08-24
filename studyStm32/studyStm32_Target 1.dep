@@ -93,7 +93,11 @@ I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
 I (..\SYSTEM\sys\core_cm3.h)(0x4D523B58)
 I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
 I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+<<<<<<< HEAD
 F (..\HARDWARE\CAPTURE\capture.c)(0x6125046F)(--c99 --gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\LED -I ..\HARDWARE\BEEP -I ..\HARDWARE\KEY -I ..\HARDWARE\EXTInterrupt -I ..\HARDWARE\IWDG -I ..\HARDWARE\WWDG -I ..\HARDWARE\TIMER -I ..\HARDWARE\PWM -I ..\HARDWARE\CAPTURE-I.\RTE\_Target_1-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DSTM32F10X_HD-o ..\capture.o --omf_browse ..\capture.crf --depend ..\capture.d)
+=======
+F (..\HARDWARE\CAPTURE\capture.c)(0x6125014A)(--c99 --gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\LED -I ..\HARDWARE\BEEP -I ..\HARDWARE\KEY -I ..\HARDWARE\EXTInterrupt -I ..\HARDWARE\IWDG -I ..\HARDWARE\WWDG -I ..\HARDWARE\TIMER -I ..\HARDWARE\PWM -I ..\HARDWARE\CAPTURE-I.\RTE\_Target_1-ID:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DSTM32F10X_HD-o ..\capture.o --omf_browse ..\capture.crf --depend ..\capture.d)
+>>>>>>> f091752262f691eec8ea469cf5b8b856694d1374
 I (..\SYSTEM\sys\sys.h)(0x550EC367)
 I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
 I (..\SYSTEM\sys\core_cm3.h)(0x4D523B58)
