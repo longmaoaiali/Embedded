@@ -1,0 +1,170 @@
+2021-10-20 16:45:31.827 5039-5039/com.espressif.esptouch.android D/InputTransport: Input channel constructed: fd=67
+2021-10-20 16:45:31.827 5039-5039/com.espressif.esptouch.android D/ViewRootImpl@57c9a28[EspMainActivity]: setView = DecorView@ff60341[EspMainActivity] TM=true MM=false
+2021-10-20 16:45:31.836 5039-5039/com.espressif.esptouch.android D/ViewRootImpl@57c9a28[EspMainActivity]: dispatchAttachedToWindow
+2021-10-20 16:45:31.860 5039-5039/com.espressif.esptouch.android V/Surface: sf_framedrop debug : 0x4f4c, game : false, logging : 0
+2021-10-20 16:45:31.862 5039-5039/com.espressif.esptouch.android D/ViewRootImpl@57c9a28[EspMainActivity]: Relayout returned: old=[0,0][0,0] new=[0,0][1080,1920] result=0x7 surface={valid=true 3774117888} changed=true
+2021-10-20 16:45:31.869 5039-5141/com.espressif.esptouch.android D/mali_winsys: EGLint new_window_surface(egl_winsys_display *, void *, EGLSurface, EGLConfig, egl_winsys_surface **, egl_color_buffer_format *, EGLBoolean) returns 0x3000,  [1080x1920]-format:1
+2021-10-20 16:45:31.869 5039-5141/com.espressif.esptouch.android D/OpenGLRenderer: eglCreateWindowSurface = 0xe658bc10, 0xe0f47808
+2021-10-20 16:45:31.918 5039-5039/com.espressif.esptouch.android D/ViewRootImpl@57c9a28[EspMainActivity]: MSG_RESIZED_REPORT: frame=Rect(0, 0 - 1080, 1920) ci=Rect(0, 72 - 0, 0) vi=Rect(0, 72 - 0, 0) or=1
+2021-10-20 16:45:31.918 5039-5039/com.espressif.esptouch.android D/ViewRootImpl@57c9a28[EspMainActivity]: MSG_WINDOW_FOCUS_CHANGED 1
+2021-10-20 16:45:31.920 5039-5039/com.espressif.esptouch.android V/InputMethodManager: Starting input: tba=android.view.inputmethod.EditorInfo@8fe8640 nm : com.espressif.esptouch.android ic=null
+2021-10-20 16:45:31.921 5039-5039/com.espressif.esptouch.android D/InputMethodManager: startInputInner - Id : 0
+2021-10-20 16:45:31.921 5039-5039/com.espressif.esptouch.android I/InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+2021-10-20 16:45:31.923 5039-5039/com.espressif.esptouch.android D/InputTransport: Input channel constructed: fd=71
+2021-10-20 16:45:34.920 5039-5039/com.espressif.esptouch.android D/ViewRootImpl@57c9a28[EspMainActivity]: ViewPostIme pointer 0
+2021-10-20 16:45:34.953 5039-5039/com.espressif.esptouch.android D/InputTransport: after addSample sampleTime 146805546787801, eventTime 146805546787801
+2021-10-20 16:45:34.986 5039-5039/com.espressif.esptouch.android D/InputTransport: after addSample sampleTime 146805580211856, eventTime 146805580211856
+2021-10-20 16:45:35.020 5039-5039/com.espressif.esptouch.android D/InputTransport: after addSample sampleTime 146805613682904, eventTime 146805613682904
+2021-10-20 16:45:35.028 5039-5039/com.espressif.esptouch.android D/ViewRootImpl@57c9a28[EspMainActivity]: ViewPostIme pointer 1
+2021-10-20 16:45:35.365 5039-5045/com.espressif.esptouch.android I/zygote: Compiler allocated 5MB to compile void android.widget.TextView.<init>(android.content.Context, android.util.AttributeSet, int, int)
+2021-10-20 16:45:35.521 5039-5045/com.espressif.esptouch.android I/zygote: Do full code cache collection, code=506KB, data=428KB
+2021-10-20 16:45:35.523 5039-5045/com.espressif.esptouch.android I/zygote: After code cache collection, code=496KB, data=348KB
+2021-10-20 16:45:35.594 5039-5039/com.espressif.esptouch.android D/EspTouchActivity: onCreate: Broadcast=android.net.wifi.STATE_CHANGE
+2021-10-20 16:45:35.618 5039-5039/com.espressif.esptouch.android D/InputTransport: Input channel constructed: fd=72
+2021-10-20 16:45:35.619 5039-5039/com.espressif.esptouch.android D/ViewRootImpl@cf64405[EspTouchActivity]: setView = DecorView@e72ac5a[EspTouchActivity] TM=true MM=false
+2021-10-20 16:45:35.623 5039-5039/com.espressif.esptouch.android D/ViewRootImpl@57c9a28[EspMainActivity]: MSG_WINDOW_FOCUS_CHANGED 0
+2021-10-20 16:45:35.625 5039-5039/com.espressif.esptouch.android I/Choreographer: Skipped 31 frames!  The application may be doing too much work on its main thread.
+2021-10-20 16:45:35.684 5039-5039/com.espressif.esptouch.android D/ViewRootImpl@cf64405[EspTouchActivity]: dispatchAttachedToWindow
+2021-10-20 16:45:35.727 5039-5039/com.espressif.esptouch.android V/Surface: sf_framedrop debug : 0x4f4c, game : false, logging : 0
+2021-10-20 16:45:35.729 5039-5039/com.espressif.esptouch.android D/ViewRootImpl@cf64405[EspTouchActivity]: Relayout returned: old=[0,0][0,0] new=[0,0][1080,1920] result=0x7 surface={valid=true 3439325184} changed=true
+2021-10-20 16:45:35.738 5039-5141/com.espressif.esptouch.android D/mali_winsys: EGLint new_window_surface(egl_winsys_display *, void *, EGLSurface, EGLConfig, egl_winsys_surface **, egl_color_buffer_format *, EGLBoolean) returns 0x3000,  [1080x1920]-format:1
+2021-10-20 16:45:35.738 5039-5141/com.espressif.esptouch.android D/OpenGLRenderer: eglCreateWindowSurface = 0xe658bb98, 0xccfff008
+2021-10-20 16:45:35.902 5039-5039/com.espressif.esptouch.android D/ViewRootImpl@cf64405[EspTouchActivity]: MSG_RESIZED_REPORT: frame=Rect(0, 0 - 1080, 1920) ci=Rect(0, 72 - 0, 0) vi=Rect(0, 72 - 0, 0) or=1
+2021-10-20 16:45:35.903 5039-5039/com.espressif.esptouch.android D/ViewRootImpl@cf64405[EspTouchActivity]: MSG_WINDOW_FOCUS_CHANGED 1
+2021-10-20 16:45:35.960 5039-5039/com.espressif.esptouch.android V/InputMethodManager: Starting input: tba=android.view.inputmethod.EditorInfo@bdbdc2 nm : com.espressif.esptouch.android ic=com.android.internal.widget.EditableInputConnection@6a717d3
+2021-10-20 16:45:35.960 5039-5039/com.espressif.esptouch.android D/InputMethodManager: startInputInner - Id : 0
+2021-10-20 16:45:35.960 5039-5039/com.espressif.esptouch.android I/InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+2021-10-20 16:45:35.964 5039-5039/com.espressif.esptouch.android D/InputTransport: Input channel constructed: fd=77
+2021-10-20 16:45:35.964 5039-5039/com.espressif.esptouch.android D/InputTransport: Input channel destroyed: fd=71
+2021-10-20 16:45:35.965 5039-5039/com.espressif.esptouch.android D/ViewRootImpl@cf64405[EspTouchActivity]: MSG_WINDOW_FOCUS_CHANGED 0
+2021-10-20 16:45:36.040 5039-5039/com.espressif.esptouch.android D/ViewRootImpl@cf64405[EspTouchActivity]: MSG_WINDOW_FOCUS_CHANGED 1
+2021-10-20 16:45:36.116 5039-5039/com.espressif.esptouch.android D/ViewRootImpl@cf64405[EspTouchActivity]: Relayout returned: old=[0,0][1080,1920] new=[0,0][1080,1920] result=0x1 surface={valid=true 3439325184} changed=false
+2021-10-20 16:45:36.148 5039-5141/com.espressif.esptouch.android D/OpenGLRenderer: eglDestroySurface = 0xe658bc10, 0xe0f47800
+2021-10-20 16:45:36.158 5039-5039/com.espressif.esptouch.android D/ViewRootImpl@57c9a28[EspMainActivity]: Relayout returned: old=[0,0][1080,1920] new=[0,0][1080,1920] result=0x5 surface={valid=false 0} changed=true
+2021-10-20 16:45:36.400 5039-5039/com.espressif.esptouch.android D/ViewRootImpl@57c9a28[EspMainActivity]: Relayout returned: old=[0,0][1080,1920] new=[0,0][1080,1920] result=0x1 surface={valid=false 0} changed=false
+2021-10-20 16:45:40.817 5039-5039/com.espressif.esptouch.android D/ViewRootImpl@cf64405[EspTouchActivity]: ViewPostIme pointer 0
+2021-10-20 16:45:40.869 5039-5039/com.espressif.esptouch.android D/InputTransport: after addSample sampleTime 146811462732516, eventTime 146811462732516
+2021-10-20 16:45:40.886 5039-5039/com.espressif.esptouch.android D/InputTransport: after addSample sampleTime 146811479444991, eventTime 146811479444991
+2021-10-20 16:45:40.902 5039-5039/com.espressif.esptouch.android D/InputTransport: after addSample sampleTime 146811493776500, eventTime 146811493776500
+2021-10-20 16:45:40.917 5039-5039/com.espressif.esptouch.android D/ViewRootImpl@cf64405[EspTouchActivity]: ViewPostIme pointer 1
+2021-10-20 16:45:40.924 5039-5039/com.espressif.esptouch.android D/InputMethodManager: SSI - flag : 0 Pid : 5039 view : com.espressif.esptouch.android
+2021-10-20 16:45:41.153 5039-5039/com.espressif.esptouch.android D/ViewRootImpl@cf64405[EspTouchActivity]: MSG_RESIZED: frame=Rect(0, 0 - 1080, 1920) ci=Rect(0, 72 - 0, 0) vi=Rect(0, 72 - 0, 873) or=1
+2021-10-20 16:45:41.201 5039-5045/com.espressif.esptouch.android I/zygote: Do partial code cache collection, code=505KB, data=382KB
+2021-10-20 16:45:41.202 5039-5045/com.espressif.esptouch.android I/zygote: After code cache collection, code=505KB, data=382KB
+2021-10-20 16:45:41.202 5039-5045/com.espressif.esptouch.android I/zygote: Increasing code cache capacity to 2MB
+2021-10-20 16:45:45.139 5039-5039/com.espressif.esptouch.android D/ViewRootImpl@cf64405[EspTouchActivity]: ViewPostIme pointer 0
+2021-10-20 16:45:45.164 5039-5039/com.espressif.esptouch.android D/InputTransport: after addSample sampleTime 146815746709500, eventTime 146815746709500
+2021-10-20 16:45:45.196 5039-5039/com.espressif.esptouch.android D/ViewRootImpl@cf64405[EspTouchActivity]: ViewPostIme pointer 1
+2021-10-20 16:45:47.228 5039-5039/com.espressif.esptouch.android D/ViewRootImpl@cf64405[EspTouchActivity]: ViewPostIme pointer 0
+2021-10-20 16:45:47.253 5039-5039/com.espressif.esptouch.android D/InputTransport: after addSample sampleTime 146817835714000, eventTime 146817835714000
+2021-10-20 16:45:47.270 5039-5039/com.espressif.esptouch.android D/InputTransport: after addSample sampleTime 146817863296064, eventTime 146817863296064
+2021-10-20 16:45:47.286 5039-5039/com.espressif.esptouch.android D/InputTransport: after addSample sampleTime 146817880007989, eventTime 146817880007989
+2021-10-20 16:45:47.470 5039-5039/com.espressif.esptouch.android D/ViewRootImpl@cf64405[EspTouchActivity]: ViewPostIme pointer 1
+2021-10-20 16:45:48.475 5039-5039/com.espressif.esptouch.android D/ViewRootImpl@cf64405[EspTouchActivity]: ViewPostIme key 0
+2021-10-20 16:45:48.477 5039-5039/com.espressif.esptouch.android D/ViewRootImpl@cf64405[EspTouchActivity]: ViewPostIme key 1
+2021-10-20 16:45:48.510 5039-5039/com.espressif.esptouch.android V/InputMethodManager: Starting input: tba=android.view.inputmethod.EditorInfo@30cc03b nm : com.espressif.esptouch.android ic=com.android.internal.widget.EditableInputConnection@7a20358
+2021-10-20 16:45:48.511 5039-5039/com.espressif.esptouch.android D/InputMethodManager: startInputInner - Id : 0
+2021-10-20 16:45:48.511 5039-5039/com.espressif.esptouch.android I/InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+2021-10-20 16:45:48.514 5039-5039/com.espressif.esptouch.android D/InputTransport: Input channel constructed: fd=71
+2021-10-20 16:45:48.515 5039-5039/com.espressif.esptouch.android D/InputTransport: Input channel destroyed: fd=77
+2021-10-20 16:45:48.636 5039-5039/com.espressif.esptouch.android D/ViewRootImpl@cf64405[EspTouchActivity]: MSG_RESIZED: frame=Rect(0, 0 - 1080, 1920) ci=Rect(0, 72 - 0, 0) vi=Rect(0, 72 - 0, 750) or=1
+2021-10-20 16:45:49.592 5039-5039/com.espressif.esptouch.android D/ViewRootImpl@cf64405[EspTouchActivity]: ViewPostIme pointer 0
+2021-10-20 16:45:49.641 5039-5039/com.espressif.esptouch.android D/ViewRootImpl@cf64405[EspTouchActivity]: ViewPostIme pointer 1
+2021-10-20 16:45:51.310 5039-5039/com.espressif.esptouch.android D/ViewRootImpl@cf64405[EspTouchActivity]: ViewPostIme key 0
+2021-10-20 16:45:51.311 5039-5039/com.espressif.esptouch.android D/ViewRootImpl@cf64405[EspTouchActivity]: ViewPostIme key 1
+2021-10-20 16:45:51.316 5039-5039/com.espressif.esptouch.android D/InputMethodManager: HSIFW - flag : 0 Pid : 5039
+2021-10-20 16:45:51.349 5039-5039/com.espressif.esptouch.android D/ViewRootImpl@cf64405[EspTouchActivity]: MSG_RESIZED: frame=Rect(0, 0 - 1080, 1920) ci=Rect(0, 72 - 0, 0) vi=Rect(0, 72 - 0, 0) or=1
+2021-10-20 16:45:55.274 5039-5039/com.espressif.esptouch.android D/ViewRootImpl@cf64405[EspTouchActivity]: ViewPostIme pointer 0
+2021-10-20 16:45:55.291 5039-5039/com.espressif.esptouch.android D/InputTransport: after addSample sampleTime 146825884841664, eventTime 146825884841664
+2021-10-20 16:45:55.308 5039-5039/com.espressif.esptouch.android D/InputTransport: after addSample sampleTime 146825901554021, eventTime 146825901554021
+2021-10-20 16:45:55.324 5039-5039/com.espressif.esptouch.android D/InputTransport: after addSample sampleTime 146825918266349, eventTime 146825918266349
+2021-10-20 16:45:55.373 5039-5039/com.espressif.esptouch.android D/ViewRootImpl@cf64405[EspTouchActivity]: ViewPostIme pointer 1
+2021-10-20 16:45:55.389 5039-7704/com.espressif.esptouch.android I/__EsptouchTask: Welcome Esptouch v1.0.0
+2021-10-20 16:45:55.391 5039-7704/com.espressif.esptouch.android D/UDPSocketServer: mServerSocket is created, socket read timeout: 60000, port: 18266
+2021-10-20 16:45:55.391 5039-7704/com.espressif.esptouch.android D/__EsptouchTask: execute()
+2021-10-20 16:45:55.394 5039-7704/com.espressif.esptouch.android I/__EsptouchTask: localInetAddress: /192.168.50.63
+2021-10-20 16:45:55.402 5039-7704/com.espressif.esptouch.android D/__EsptouchTask: send gc code 
+2021-10-20 16:45:55.403 5039-7705/com.espressif.esptouch.android D/__EsptouchTask: __listenAsyn() start
+2021-10-20 16:45:55.403 5039-7705/com.espressif.esptouch.android I/__EsptouchTask: expectOneByte: 25
+2021-10-20 16:45:55.403 5039-7705/com.espressif.esptouch.android D/UDPSocketServer: receiveSpecLenBytes() entrance: len = 11
+2021-10-20 16:46:01.408 5039-7704/com.espressif.esptouch.android D/__EsptouchTask: send gc code 
+2021-10-20 16:46:07.410 5039-7704/com.espressif.esptouch.android D/__EsptouchTask: send gc code 
+2021-10-20 16:46:13.413 5039-7704/com.espressif.esptouch.android D/__EsptouchTask: send gc code 
+2021-10-20 16:46:19.414 5039-7704/com.espressif.esptouch.android D/__EsptouchTask: send gc code 
+2021-10-20 16:46:25.439 5039-7704/com.espressif.esptouch.android D/__EsptouchTask: send gc code 
+2021-10-20 16:46:31.439 5039-7704/com.espressif.esptouch.android D/__EsptouchTask: send gc code 
+2021-10-20 16:46:37.439 5039-7704/com.espressif.esptouch.android D/__EsptouchTask: send gc code 
+2021-10-20 16:46:55.415 5039-7704/com.espressif.esptouch.android I/UDPSocketClient: USPSocketClient is interrupt
+2021-10-20 16:46:55.416 5039-7704/com.espressif.esptouch.android I/UDPSocketServer: USPSocketServer is interrupt
+2021-10-20 16:46:55.416 5039-7704/com.espressif.esptouch.android W/UDPSocketServer: mServerSocket is closed
+2021-10-20 16:46:55.416 5039-7705/com.espressif.esptouch.android W/System.err: java.net.SocketTimeoutException: Poll timed out
+2021-10-20 16:46:55.417 5039-7705/com.espressif.esptouch.android W/System.err:     at libcore.io.IoBridge.poll(IoBridge.java:691)
+2021-10-20 16:46:55.417 5039-7705/com.espressif.esptouch.android W/System.err:     at java.net.PlainDatagramSocketImpl.doRecv(PlainDatagramSocketImpl.java:149)
+2021-10-20 16:46:55.417 5039-7705/com.espressif.esptouch.android W/System.err:     at java.net.PlainDatagramSocketImpl.receive0(PlainDatagramSocketImpl.java:140)
+2021-10-20 16:46:55.417 5039-7705/com.espressif.esptouch.android W/System.err:     at java.net.AbstractPlainDatagramSocketImpl.receive(AbstractPlainDatagramSocketImpl.java:143)
+2021-10-20 16:46:55.417 5039-7705/com.espressif.esptouch.android W/System.err:     at java.net.DatagramSocket.receive(DatagramSocket.java:847)
+2021-10-20 16:46:55.417 5039-7705/com.espressif.esptouch.android W/System.err:     at com.espressif.iot.esptouch.udp.UDPSocketServer.receiveSpecLenBytes(UDPSocketServer.java:110)
+2021-10-20 16:46:55.417 5039-7705/com.espressif.esptouch.android W/System.err:     at com.espressif.iot.esptouch.task.__EsptouchTask$1.run(__EsptouchTask.java:167)
+2021-10-20 16:46:55.417 5039-7705/com.espressif.esptouch.android I/__EsptouchTask: receive rubbish message, just ignore
+2021-10-20 16:46:55.417 5039-7705/com.espressif.esptouch.android D/__EsptouchTask: __listenAsyn() finish
+2021-10-20 16:46:55.540 5039-5039/com.espressif.esptouch.android D/ScrollView: initGoToTop
+2021-10-20 16:46:55.617 5039-5039/com.espressif.esptouch.android D/InputTransport: Input channel constructed: fd=77
+2021-10-20 16:46:55.618 5039-5039/com.espressif.esptouch.android D/ViewRootImpl@6fc8a32[EspTouchActivity]: setView = DecorView@4e4383[EspTouchActivity] TM=true MM=false
+2021-10-20 16:46:55.633 5039-5039/com.espressif.esptouch.android V/InputMethodManager: Starting input: tba=android.view.inputmethod.EditorInfo@436d900 nm : com.espressif.esptouch.android ic=com.android.internal.widget.EditableInputConnection@7789539
+2021-10-20 16:46:55.633 5039-5039/com.espressif.esptouch.android D/InputMethodManager: startInputInner - Id : 0
+2021-10-20 16:46:55.634 5039-5039/com.espressif.esptouch.android I/InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+2021-10-20 16:46:55.636 5039-5039/com.espressif.esptouch.android D/InputTransport: Input channel constructed: fd=81
+2021-10-20 16:46:55.636 5039-5039/com.espressif.esptouch.android D/InputTransport: Input channel destroyed: fd=71
+2021-10-20 16:46:55.673 5039-5039/com.espressif.esptouch.android D/ViewRootImpl@6fc8a32[EspTouchActivity]: dispatchAttachedToWindow
+2021-10-20 16:46:55.674 5039-5141/com.espressif.esptouch.android I/OpenGLRenderer: prepareTree mLayerUpdateQueue is not empty, size = 2
+2021-10-20 16:46:55.674 5039-5141/com.espressif.esptouch.android I/OpenGLRenderer: name = TextInputEditText, size (360, 167)
+2021-10-20 16:46:55.674 5039-5141/com.espressif.esptouch.android I/OpenGLRenderer: name = TextInputEditText, size (984, 167)
+2021-10-20 16:46:55.720 5039-5039/com.espressif.esptouch.android V/Surface: sf_framedrop debug : 0x4f4c, game : false, logging : 0
+2021-10-20 16:46:55.722 5039-5039/com.espressif.esptouch.android D/ViewRootImpl@6fc8a32[EspTouchActivity]: Relayout returned: old=[0,0][0,0] new=[27,792][1053,1200] result=0x7 surface={valid=true 3503112192} changed=true
+2021-10-20 16:46:55.726 5039-5141/com.espressif.esptouch.android D/mali_winsys: EGLint new_window_surface(egl_winsys_display *, void *, EGLSurface, EGLConfig, egl_winsys_surface **, egl_color_buffer_format *, EGLBoolean) returns 0x3000,  [1218x600]-format:1
+2021-10-20 16:46:55.726 5039-5141/com.espressif.esptouch.android D/OpenGLRenderer: eglCreateWindowSurface = 0xe658cd18, 0xd0cd4008
+2021-10-20 16:46:55.742 5039-5039/com.espressif.esptouch.android D/ScrollView:  onsize change changed 
+2021-10-20 16:46:55.746 5039-5039/com.espressif.esptouch.android D/ViewRootImpl@6fc8a32[EspTouchActivity]: MSG_WINDOW_FOCUS_CHANGED 1
+2021-10-20 16:46:55.842 5039-5039/com.espressif.esptouch.android D/ViewRootImpl@6fc8a32[EspTouchActivity]: MSG_RESIZED_REPORT: frame=Rect(27, 792 - 1053, 1200) ci=Rect(0, 0 - 0, 0) vi=Rect(0, 0 - 0, 0) or=1
+2021-10-20 16:46:55.854 5039-5039/com.espressif.esptouch.android D/ViewRootImpl@cf64405[EspTouchActivity]: MSG_WINDOW_FOCUS_CHANGED 0
+2021-10-20 16:47:03.207 5039-5039/com.espressif.esptouch.android D/ViewRootImpl@6fc8a32[EspTouchActivity]: ViewPostIme pointer 0
+2021-10-20 16:47:03.241 5039-5039/com.espressif.esptouch.android D/InputTransport: after addSample sampleTime 146893834987648, eventTime 146893834987648
+2021-10-20 16:47:03.258 5039-5039/com.espressif.esptouch.android D/InputTransport: after addSample sampleTime 146893844804000, eventTime 146893844804000
+2021-10-20 16:47:03.308 5039-5039/com.espressif.esptouch.android D/InputTransport: after addSample sampleTime 146893901838982, eventTime 146893901838982
+2021-10-20 16:47:03.315 5039-5039/com.espressif.esptouch.android D/ViewRootImpl@6fc8a32[EspTouchActivity]: ViewPostIme pointer 1
+2021-10-20 16:47:03.361 5039-5141/com.espressif.esptouch.android D/OpenGLRenderer: eglDestroySurface = 0xe658cd18, 0xd0cd4000
+2021-10-20 16:47:03.362 5039-5039/com.espressif.esptouch.android D/ViewRootImpl@6fc8a32[EspTouchActivity]: dispatchDetachedFromWindow
+2021-10-20 16:47:03.363 5039-5039/com.espressif.esptouch.android D/InputEventReceiver: channel '52a249 com.espressif.esptouch.android/com.espressif.esptouch.android.v1.EspTouchActivity (client)' ~ Disposing input event receiver.
+2021-10-20 16:47:03.363 5039-5039/com.espressif.esptouch.android D/InputEventReceiver: channel '52a249 com.espressif.esptouch.android/com.espressif.esptouch.android.v1.EspTouchActivity (client)' ~NativeInputEventReceiver.
+2021-10-20 16:47:03.377 5039-5039/com.espressif.esptouch.android D/InputTransport: Input channel destroyed: fd=77
+2021-10-20 16:47:03.379 5039-5039/com.espressif.esptouch.android D/ViewRootImpl@cf64405[EspTouchActivity]: MSG_WINDOW_FOCUS_CHANGED 1
+2021-10-20 16:47:03.421 5039-5039/com.espressif.esptouch.android E/ViewRootImpl: sendUserActionEvent() returned.
+2021-10-20 16:47:46.454 5039-5039/com.espressif.esptouch.android D/ViewRootImpl@cf64405[EspTouchActivity]: ViewPostIme key 0
+2021-10-20 16:47:46.517 5039-5039/com.espressif.esptouch.android D/ViewRootImpl@cf64405[EspTouchActivity]: ViewPostIme key 1
+2021-10-20 16:47:46.561 5039-5039/com.espressif.esptouch.android D/ViewRootImpl@cf64405[EspTouchActivity]: MSG_WINDOW_FOCUS_CHANGED 0
+2021-10-20 16:47:46.598 5039-5039/com.espressif.esptouch.android V/Surface: sf_framedrop debug : 0x4f4c, game : false, logging : 0
+2021-10-20 16:47:46.600 5039-5039/com.espressif.esptouch.android D/ViewRootImpl@57c9a28[EspMainActivity]: Relayout returned: old=[0,0][1080,1920] new=[0,0][1080,1920] result=0x7 surface={valid=true 3503112192} changed=true
+2021-10-20 16:47:46.601 5039-5141/com.espressif.esptouch.android D/mali_winsys: EGLint new_window_surface(egl_winsys_display *, void *, EGLSurface, EGLConfig, egl_winsys_surface **, egl_color_buffer_format *, EGLBoolean) returns 0x3000,  [1080x1920]-format:1
+2021-10-20 16:47:46.601 5039-5141/com.espressif.esptouch.android D/OpenGLRenderer: eglCreateWindowSurface = 0xe658cd18, 0xd0cd4008
+2021-10-20 16:47:46.618 5039-5039/com.espressif.esptouch.android D/ViewRootImpl@57c9a28[EspMainActivity]: MSG_WINDOW_FOCUS_CHANGED 1
+2021-10-20 16:47:46.620 5039-5039/com.espressif.esptouch.android V/InputMethodManager: Starting input: tba=android.view.inputmethod.EditorInfo@b971373 nm : com.espressif.esptouch.android ic=null
+2021-10-20 16:47:46.620 5039-5039/com.espressif.esptouch.android D/InputMethodManager: startInputInner - Id : 0
+2021-10-20 16:47:46.620 5039-5039/com.espressif.esptouch.android I/InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+2021-10-20 16:47:46.623 5039-5039/com.espressif.esptouch.android D/InputTransport: Input channel constructed: fd=75
+2021-10-20 16:47:46.623 5039-5039/com.espressif.esptouch.android D/InputTransport: Input channel destroyed: fd=81
+2021-10-20 16:47:46.647 5039-5141/com.espressif.esptouch.android D/OpenGLRenderer: eglDestroySurface = 0xe658bb98, 0xccfff000
+2021-10-20 16:47:46.661 5039-5039/com.espressif.esptouch.android D/ViewRootImpl@cf64405[EspTouchActivity]: Relayout returned: old=[0,0][1080,1920] new=[0,0][1080,1920] result=0x5 surface={valid=false 0} changed=true
+2021-10-20 16:47:47.026 5039-5039/com.espressif.esptouch.android D/ViewRootImpl@57c9a28[EspMainActivity]: ViewPostIme key 0
+2021-10-20 16:47:47.111 5039-5039/com.espressif.esptouch.android D/ViewRootImpl@cf64405[EspTouchActivity]: dispatchDetachedFromWindow
+2021-10-20 16:47:47.111 5039-5039/com.espressif.esptouch.android D/InputEventReceiver: channel 'bd08f9f com.espressif.esptouch.android/com.espressif.esptouch.android.v1.EspTouchActivity (client)' ~ Disposing input event receiver.
+2021-10-20 16:47:47.111 5039-5039/com.espressif.esptouch.android D/InputEventReceiver: channel 'bd08f9f com.espressif.esptouch.android/com.espressif.esptouch.android.v1.EspTouchActivity (client)' ~NativeInputEventReceiver.
+2021-10-20 16:47:47.116 5039-5039/com.espressif.esptouch.android D/InputTransport: Input channel destroyed: fd=72
+2021-10-20 16:47:47.118 5039-5039/com.espressif.esptouch.android D/ViewRootImpl@57c9a28[EspMainActivity]: ViewPostIme key 1
+2021-10-20 16:47:47.156 5039-5039/com.espressif.esptouch.android D/ViewRootImpl@57c9a28[EspMainActivity]: MSG_WINDOW_FOCUS_CHANGED 0
+2021-10-20 16:47:47.197 5039-5039/com.espressif.esptouch.android D/InputTransport: Input channel destroyed: fd=75
+2021-10-20 16:47:47.230 5039-5141/com.espressif.esptouch.android D/OpenGLRenderer: eglDestroySurface = 0xe658cd18, 0xd0cd4000
+2021-10-20 16:47:47.258 5039-5039/com.espressif.esptouch.android D/ViewRootImpl@57c9a28[EspMainActivity]: Relayout returned: old=[0,0][1080,1920] new=[0,0][1080,1920] result=0x5 surface={valid=false 0} changed=true
+2021-10-20 16:47:47.530 5039-5039/com.espressif.esptouch.android D/ViewRootImpl@57c9a28[EspMainActivity]: dispatchDetachedFromWindow
+2021-10-20 16:47:47.530 5039-5039/com.espressif.esptouch.android D/InputEventReceiver: channel '9a82045 com.espressif.esptouch.android/com.espressif.esptouch.android.main.EspMainActivity (client)' ~ Disposing input event receiver.
+2021-10-20 16:47:47.530 5039-5039/com.espressif.esptouch.android D/InputEventReceiver: channel '9a82045 com.espressif.esptouch.android/com.espressif.esptouch.android.main.EspMainActivity (client)' ~NativeInputEventReceiver.
+2021-10-20 16:47:47.537 5039-5039/com.espressif.esptouch.android D/InputTransport: Input channel destroyed: fd=67
