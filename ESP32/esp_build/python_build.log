@@ -1,0 +1,192 @@
+Windows PowerShell
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+尝试新的跨平台 PowerShell https://aka.ms/pscore6
+
+Setting PYTHONNOUSERSITE, was not set
+Using Python in C:\Users\liuyu\.espressif\python_env\idf4.3_py3.8_env\Scripts
+Python 3.8.7
+Using Git in C:\Users\liuyu\.espressif\tools\idf-git\2.30.1\cmd
+git version 2.30.1.windows.1
+Setting IDF_PATH: C:\Users\liuyu\Desktop\esp-idf
+Adding ESP-IDF tools to PATH...
+
+Name                           Value
+----                           -----
+OPENOCD_SCRIPTS                C:\Users\liuyu\.espressif\tools\openocd-esp32\v0.10.0-esp32-20210401\openocd-esp32\sh...
+IDF_CCACHE_ENABLE              1
+IDF_PYTHON_ENV_PATH            C:\Users\liuyu\.espressif\python_env\idf4.3_py3.8_env
+
+Added to PATH
+-------------
+C:\Users\liuyu\Desktop\esp-idf\components\esptool_py\esptool
+C:\Users\liuyu\Desktop\esp-idf\components\app_update
+C:\Users\liuyu\Desktop\esp-idf\components\espcoredump
+C:\Users\liuyu\Desktop\esp-idf\components\partition_table
+C:\Users\liuyu\.espressif\tools\xtensa-esp32-elf\esp-2021r1-8.4.0\xtensa-esp32-elf\bin
+C:\Users\liuyu\.espressif\tools\xtensa-esp32s2-elf\esp-2021r1-8.4.0\xtensa-esp32s2-elf\bin
+C:\Users\liuyu\.espressif\tools\xtensa-esp32s3-elf\esp-2021r1-8.4.0\xtensa-esp32s3-elf\bin
+C:\Users\liuyu\.espressif\tools\riscv32-esp-elf\esp-2021r1-8.4.0\riscv32-esp-elf\bin
+C:\Users\liuyu\.espressif\tools\esp32ulp-elf\2.28.51-esp-20191205\esp32ulp-elf-binutils\bin
+C:\Users\liuyu\.espressif\tools\esp32s2ulp-elf\2.28.51-esp-20191205\esp32s2ulp-elf-binutils\bin
+C:\Users\liuyu\.espressif\tools\cmake\3.16.4\bin
+C:\Users\liuyu\.espressif\tools\openocd-esp32\v0.10.0-esp32-20210401\openocd-esp32\bin
+C:\Users\liuyu\.espressif\tools\ninja\1.10.2\
+C:\Users\liuyu\.espressif\tools\idf-exe\1.0.1\
+C:\Users\liuyu\.espressif\tools\ccache\3.7\
+C:\Users\liuyu\.espressif\tools\dfu-util\0.9\dfu-util-0.9-win64
+C:\Users\liuyu\Desktop\esp-idf\tools
+%PATH%
+Checking if Python packages are up to date...
+Python requirements from C:\Users\liuyu\Desktop\esp-idf\requirements.txt are satisfied.
+
+Done! You can now compile ESP-IDF projects.
+Go to the project directory and run:
+    idf.py build
+
+
+
+
+PS C:\Users\liuyu\Desktop\esp-idf> cd D:\ESP32_HelloBug_DEV\ESP32_DevBoard_BasicExample\0_hello_bug
+PS D:\ESP32_HelloBug_DEV\ESP32_DevBoard_BasicExample\0_hello_bug> idf.py clean
+Executing action: clean
+Running ninja in directory d:\esp32_hellobug_dev\esp32_devboard_basicexample\0_hello_bug\build
+Executing "ninja clean"...
+[1/1] Cleaning all built files...
+Cleaning... 968 files.
+PS D:\ESP32_HelloBug_DEV\ESP32_DevBoard_BasicExample\0_hello_bug> idf.py build
+Executing action: all (aliases: build)
+Running ninja in directory d:\esp32_hellobug_dev\esp32_devboard_basicexample\0_hello_bug\build
+Executing "ninja all"...
+[33/965] Generating ../../partition_table/partition-table.bin
+Partition table binary generated. Contents:
+*******************************************************************************
+# ESP-IDF Partition Table
+# Name, Type, SubType, Offset, Size, Flags
+nvs,data,nvs,0x9000,24K,
+phy_init,data,phy,0xf000,4K,
+factory,app,factory,0x10000,1M,
+*******************************************************************************
+[958/965] Performing configure step for 'bootloader'
+-- Building ESP-IDF components for target esp32
+-- Project sdkconfig file D:/ESP32_HelloBug_DEV/ESP32_DevBoard_BasicExample/0_hello_bug/sdkconfig
+-- Adding linker script C:/Users/liuyu/Desktop/esp-idf/components/esp32/ld/esp32.peripherals.ld
+-- Adding linker script C:/Users/liuyu/Desktop/esp-idf/components/esp_rom/esp32/ld/esp32.rom.ld
+-- Adding linker script C:/Users/liuyu/Desktop/esp-idf/components/esp_rom/esp32/ld/esp32.rom.api.ld
+-- Adding linker script C:/Users/liuyu/Desktop/esp-idf/components/esp_rom/esp32/ld/esp32.rom.libgcc.ld
+-- Adding linker script C:/Users/liuyu/Desktop/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-funcs.ld
+-- Adding linker script C:/Users/liuyu/Desktop/esp-idf/components/bootloader/subproject/main/ld/esp32/bootloader.ld
+-- Adding linker script C:/Users/liuyu/Desktop/esp-idf/components/bootloader/subproject/main/ld/esp32/bootloader.rom.ld
+-- Components: bootloader bootloader_support efuse esp32 esp_common esp_hw_support esp_rom esp_system esptool_py hal log main micro-ecc newlib partition_table soc spi_flash xtensa
+-- Component paths: C:/Users/liuyu/Desktop/esp-idf/components/bootloader C:/Users/liuyu/Desktop/esp-idf/components/bootloader_support C:/Users/liuyu/Desktop/esp-idf/components/efuse C:/Users/liuyu/Desktop/esp-idf/components/esp32 C:/Users/liuyu/Desktop/esp-idf/components/esp_common C:/Users/liuyu/Desktop/esp-idf/components/esp_hw_support C:/Users/liuyu/Desktop/esp-idf/components/esp_rom C:/Users/liuyu/Desktop/esp-idf/components/esp_system C:/Users/liuyu/Desktop/esp-idf/components/esptool_py C:/Users/liuyu/Desktop/esp-idf/components/hal C:/Users/liuyu/Desktop/esp-idf/components/log C:/Users/liuyu/Desktop/esp-idf/components/bootloader/subproject/main C:/Users/liuyu/Desktop/esp-idf/components/bootloader/subproject/components/micro-ecc C:/Users/liuyu/Desktop/esp-idf/components/newlib C:/Users/liuyu/Desktop/esp-idf/components/partition_table C:/Users/liuyu/Desktop/esp-idf/components/soc C:/Users/liuyu/Desktop/esp-idf/components/spi_flash C:/Users/liuyu/Desktop/esp-idf/components/xtensa
+-- Configuring done
+-- Generating done
+-- Build files have been written to: D:/ESP32_HelloBug_DEV/ESP32_DevBoard_BasicExample/0_hello_bug/build/bootloader
+[959/965] Performing build step for 'bootloader'
+[1/2] Linking C executable bootloader.elf
+[2/2] Generating binary image from built executable
+esptool.py v3.1-dev
+Merged 1 ELF section
+Generated D:/ESP32_HelloBug_DEV/ESP32_DevBoard_BasicExample/0_hello_bug/build/bootloader/bootloader.bin
+[965/965] Generating binary image from built executable
+esptool.py v3.1-dev
+Merged 2 ELF sections
+Generated D:/ESP32_HelloBug_DEV/ESP32_DevBoard_BasicExample/0_hello_bug/build/hello-bug.bin
+
+Project build complete. To flash, run this command:
+C:\Users\liuyu\.espressif\python_env\idf4.3_py3.8_env\Scripts\python.exe C:\Users\liuyu\Desktop\esp-idf\components\esptool_py\esptool\esptool.py -p (PORT) -b 460800 --before default_reset --after hard_reset --chip esp32  write_flash --flash_mode dio --flash_size detect --flash_freq 40m 0x1000 build\bootloader\bootloader.bin 0x8000 build\partition_table\partition-table.bin 0x10000 build\hello-bug.bin
+or run 'idf.py -p (PORT) flash'
+PS D:\ESP32_HelloBug_DEV\ESP32_DevBoard_BasicExample\0_hello_bug> idf.py -p COM4 flash monitor
+Executing action: flash
+Running ninja in directory d:\esp32_hellobug_dev\esp32_devboard_basicexample\0_hello_bug\build
+Executing "ninja flash"...
+[1/4] Performing build step for 'bootloader'
+ninja: no work to do.
+[1/2] cmd.exe /C "cd /D C:\Users\liuyu\Desktop\esp-idf\components\esptool_py && C:\Users\liuy...llo_bug/build" -P C:/Users/liuyu/Desktop/esp-idf/components/esptool_py/run_serial_tool.cmake"
+esptool.py esp32 -p COM4 -b 460800 --before=default_reset --after=hard_reset write_flash --flash_mode dio --flash_freq 40m --flash_size 2MB 0x8000 partition_table/partition-table.bin 0x1000 bootloader/bootloader.bin 0x10000 hello-bug.bin
+esptool.py v3.1-dev
+Serial port COM4
+Traceback (most recent call last):
+  File "C:/Users/liuyu/Desktop/esp-idf/components/esptool_py/esptool/esptool.py", line 4535, in <module>
+    _main()
+  File "C:/Users/liuyu/Desktop/esp-idf/components/esptool_py/esptool/esptool.py", line 4528, in _main
+    main()
+  File "C:/Users/liuyu/Desktop/esp-idf/components/esptool_py/esptool/esptool.py", line 4027, in main
+    esp = esp or get_default_connected_device(ser_list, port=args.port, connect_attempts=args.connect_attempts,
+  File "C:/Users/liuyu/Desktop/esp-idf/components/esptool_py/esptool/esptool.py", line 120, in get_default_connected_device
+    _esp = chip_class(each_port, initial_baud, trace)
+  File "C:/Users/liuyu/Desktop/esp-idf/components/esptool_py/esptool/esptool.py", line 310, in __init__
+    self._port = serial.serial_for_url(port)
+  File "C:\Users\liuyu\.espressif\python_env\idf4.3_py3.8_env\lib\site-packages\serial\__init__.py", line 90, in serial_for_url
+    instance.open()
+  File "C:\Users\liuyu\.espressif\python_env\idf4.3_py3.8_env\lib\site-packages\serial\serialwin32.py", line 64, in open
+    raise SerialException("could not open port {!r}: {!r}".format(self.portstr, ctypes.WinError()))
+serial.serialutil.SerialException: could not open port 'COM4': FileNotFoundError(2, '系统找不到指定的文件。', None, 2)
+CMake Error at run_serial_tool.cmake:50 (message):
+  C:/Users/liuyu/.espressif/python_env/idf4.3_py3.8_env/Scripts/python.exe
+  C:/Users/liuyu/Desktop/esp-idf/components/esptool_py/esptool/esptool.py
+  --chip esp32 failed
+
+
+FAILED: CMakeFiles/flash
+cmd.exe /C "cd /D C:\Users\liuyu\Desktop\esp-idf\components\esptool_py && C:\Users\liuyu\.espressif\tools\cmake\3.16.4\bin\cmake.exe -D IDF_PATH="C:/Users/liuyu/Desktop/esp-idf" -D SERIAL_TOOL="C:/Users/liuyu/.espressif/python_env/idf4.3_py3.8_env/Scripts/python.exe C:/Users/liuyu/Desktop/esp-idf/components/esptool_py/esptool/esptool.py --chip esp32" -D SERIAL_TOOL_ARGS="--before=default_reset --after=hard_reset write_flash @flash_args" -D WORKING_DIRECTORY="D:/ESP32_HelloBug_DEV/ESP32_DevBoard_BasicExample/0_hello_bug/build" -P C:/Users/liuyu/Desktop/esp-idf/components/esptool_py/run_serial_tool.cmake"
+ninja: build stopped: subcommand failed.
+ninja failed with exit code 1
+PS D:\ESP32_HelloBug_DEV\ESP32_DevBoard_BasicExample\0_hello_bug> idf.py clean
+Executing action: clean
+Running ninja in directory d:\esp32_hellobug_dev\esp32_devboard_basicexample\0_hello_bug\build
+Executing "ninja clean"...
+[1/1] Cleaning all built files...
+Cleaning... 968 files.
+PS D:\ESP32_HelloBug_DEV\ESP32_DevBoard_BasicExample\0_hello_bug> idf.py build > build.log&
+所在位置 行:1 字符: 25
++ idf.py build > build.log&
++                         ~
+不允许使用与号(&)。& 运算符是为将来使用而保留的；请用双引号将与号引起来("&")，以将其作为字符串的一部分传递。
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : AmpersandNotAllowed
+
+PS D:\ESP32_HelloBug_DEV\ESP32_DevBoard_BasicExample\0_hello_bug> idf.py build > build.log
+PS D:\ESP32_HelloBug_DEV\ESP32_DevBoard_BasicExample\0_hello_bug> idf.py clean > clean.log
+PS D:\ESP32_HelloBug_DEV\ESP32_DevBoard_BasicExample\0_hello_bug> idf.py -p COM4 flash monitor > flash.log
+Traceback (most recent call last):
+  File "C:/Users/liuyu/Desktop/esp-idf/components/esptool_py/esptool/esptool.py", line 4535, in <module>
+    _main()
+  File "C:/Users/liuyu/Desktop/esp-idf/components/esptool_py/esptool/esptool.py", line 4528, in _main
+    main()
+  File "C:/Users/liuyu/Desktop/esp-idf/components/esptool_py/esptool/esptool.py", line 4027, in main
+    esp = esp or get_default_connected_device(ser_list, port=args.port, connect_attempts=args.connect_attempts,
+  File "C:/Users/liuyu/Desktop/esp-idf/components/esptool_py/esptool/esptool.py", line 120, in get_default_connected_device
+    _esp = chip_class(each_port, initial_baud, trace)
+  File "C:/Users/liuyu/Desktop/esp-idf/components/esptool_py/esptool/esptool.py", line 310, in __init__
+    self._port = serial.serial_for_url(port)
+  File "C:\Users\liuyu\.espressif\python_env\idf4.3_py3.8_env\lib\site-packages\serial\__init__.py", line 90, in serial_for_url
+    instance.open()
+  File "C:\Users\liuyu\.espressif\python_env\idf4.3_py3.8_env\lib\site-packages\serial\serialwin32.py", line 64, in open
+    raise SerialException("could not open port {!r}: {!r}".format(self.portstr, ctypes.WinError()))
+serial.serialutil.SerialException: could not open port 'COM4': FileNotFoundError(2, '系统找不到指定的文件。', None, 2)
+CMake Error at run_serial_tool.cmake:50 (message):
+  C:/Users/liuyu/.espressif/python_env/idf4.3_py3.8_env/Scripts/python.exe
+  C:/Users/liuyu/Desktop/esp-idf/components/esptool_py/esptool/esptool.py
+  --chip esp32 failed
+
+
+ninja failed with exit code 1
+PS D:\ESP32_HelloBug_DEV\ESP32_DevBoard_BasicExample\0_hello_bug> idf.py -p COM4  monitor > monitor.log
+--- WARNING: GDB cannot open serial ports accessed as COMx
+--- Using \\.\COM4 instead...
+--- idf_monitor on \\.\COM4 115200 ---
+--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---
+Exception in thread Thread-2:
+Traceback (most recent call last):
+  File "threading.py", line 932, in _bootstrap_inner
+  File "threading.py", line 870, in run
+  File "C:\Users\liuyu\Desktop\esp-idf\tools/idf_monitor.py", line 187, in _run_outer
+    self.run()
+  File "C:\Users\liuyu\Desktop\esp-idf\tools/idf_monitor.py", line 394, in run
+    self.serial.open()
+  File "C:\Users\liuyu\.espressif\python_env\idf4.3_py3.8_env\lib\site-packages\serial\serialwin32.py", line 64, in open
+    raise SerialException("could not open port {!r}: {!r}".format(self.portstr, ctypes.WinError()))
+serial.serialutil.SerialException: could not open port '\\\\.\\COM4': FileNotFoundError(2, '?????????????????????????????????', None, 2)
+
+PS D:\ESP32_HelloBug_DEV\ESP32_DevBoard_BasicExample\0_hello_bug>
